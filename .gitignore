@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Archivos de prueba locales (PDFs/EPUBs que uses para probar)
+*.pdf
+*.epub
+!examples/*.pdf
+
+.vscode/
+.idea/
+.DS_Store
